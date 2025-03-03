@@ -6,16 +6,24 @@
 3. Logikai adatfolyam-diagram - Ákos
 4. Fizikai adatfolyam-diagram - Ákos
 
+<br />
+
 5. Egyedmodell
 6. EK diagram
 7. EK diagram leképezése adatsémákra
 8. Funkcionális függőségek
 
+<br />
+
 9. Egyed-esemény mátrix
 10. Szerep-funkció mátrix
 11. Funkciómeghatározás
 
+<br />
+
 12. Képernyőtervek (nem kötelező)
 13. Menütervek (nem kötelező)
+
+<br />
 
 ## Határidő: március 16. 
