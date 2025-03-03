@@ -8,16 +8,16 @@
 
 <br />
 
-5. Egyedmodell
-6. EK diagram
-7. EK diagram leképezése adatsémákra
-8. Funkcionális függőségek
+5. Egyedmodell - Ráhel 
+6. EK diagram - Ráhel 
+7. EK diagram leképezése adatsémákra - Ráhel
+8. Funkcionális függőségek - Ráhel
 
 <br />
 
-9. Egyed-esemény mátrix
-10. Szerep-funkció mátrix
-11. Funkciómeghatározás
+9. Egyed-esemény mátrix - Bence
+10. Szerep-funkció mátrix - Bence 
+11. Funkciómeghatározás - Bence
 
 <br />
 
