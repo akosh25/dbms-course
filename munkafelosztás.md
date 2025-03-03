@@ -8,10 +8,10 @@
 
 <br />
 
-5. Egyedmodell - Ráhel 
-6. EK diagram - Ráhel 
-7. EK diagram leképezése adatsémákra - Ráhel
-8. Funkcionális függőségek - Ráhel
+5. Egyedmodell - Rachel 
+6. EK diagram - Rachel 
+7. EK diagram leképezése adatsémákra - Rachel
+8. Funkcionális függőségek - Rachel
 
 <br />
 
