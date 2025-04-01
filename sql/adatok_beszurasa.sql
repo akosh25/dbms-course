@@ -2,8 +2,8 @@
 -- Idegen kulcsok korlátozásának letiltása, hogy törölni lehessen az adatokat
 ALTER TABLE Ajanlasok DISABLE CONSTRAINT fk_ajanlasok_felhasznalo;
 ALTER TABLE Ajanlasok DISABLE CONSTRAINT fk_ajanlasok_video;
-ALTER TABLE Megtekintesek DISABLE CONSTRAINT fk_megtekintesek_felhasznalo;
-ALTER TABLE Megtekintesek DISABLE CONSTRAINT fk_megtekintesek_video;
+ALTER TABLE Megtekintes DISABLE CONSTRAINT fk_megtekintesek_felhasznalo;
+ALTER TABLE Megtekintes DISABLE CONSTRAINT fk_megtekintesek_video;
 ALTER TABLE Kedvencek DISABLE CONSTRAINT fk_kedvencek_felhasznalo;
 ALTER TABLE Kedvencek DISABLE CONSTRAINT fk_kedvencek_video;
 ALTER TABLE LejatszasiListaVideo DISABLE CONSTRAINT fk_llvideo_lejatszasilista;
@@ -14,12 +14,12 @@ ALTER TABLE VideoCimke DISABLE CONSTRAINT fk_videocimke_cimke;
 ALTER TABLE Hozzaszolas DISABLE CONSTRAINT fk_hozzaszolas_felhasznalo;
 ALTER TABLE Hozzaszolas DISABLE CONSTRAINT fk_hozzaszolas_video;
 ALTER TABLE VideoMetadata DISABLE CONSTRAINT fk_videometadata_video;
-ALTER TABLE Video DISABLE CONSTRAINT fk_video_kategoria;
+ALTER TABLE Video DISABLE CONSTRAINT fk_video_kategoria;    
 ALTER TABLE Video DISABLE CONSTRAINT fk_video_felhasznalo;
 
 -- Adatok törlése a táblákból
 DELETE FROM Ajanlasok;
-DELETE FROM Megtekintesek;
+DELETE FROM Megtekintes;
 DELETE FROM Kedvencek;
 DELETE FROM LejatszasiListaVideo;
 DELETE FROM LejatszasiLista;
@@ -34,8 +34,8 @@ DELETE FROM Felhasznalo;
 -- Korlátotások engedélyezése
 ALTER TABLE Ajanlasok ENABLE CONSTRAINT fk_ajanlasok_felhasznalo;
 ALTER TABLE Ajanlasok ENABLE CONSTRAINT fk_ajanlasok_video;
-ALTER TABLE Megtekintesek ENABLE CONSTRAINT fk_megtekintesek_felhasznalo;
-ALTER TABLE Megtekintesek ENABLE CONSTRAINT fk_megtekintesek_video;
+ALTER TABLE Megtekintes ENABLE CONSTRAINT fk_megtekintesek_felhasznalo;
+ALTER TABLE Megtekintes ENABLE CONSTRAINT fk_megtekintesek_video;
 ALTER TABLE Kedvencek ENABLE CONSTRAINT fk_kedvencek_felhasznalo;
 ALTER TABLE Kedvencek ENABLE CONSTRAINT fk_kedvencek_video;
 ALTER TABLE LejatszasiListaVideo ENABLE CONSTRAINT fk_llvideo_lejatszasilista;
@@ -219,20 +219,20 @@ VALUES (8, 2, TIMESTAMP '2023-04-12 11:20:00');
 INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum)
 VALUES (10, 8, TIMESTAMP '2023-02-18 20:05:00');
 
--- 11. Adatok beszúrása: Megtekintesek
-INSERT INTO Megtekintesek (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
+-- 11. Adatok beszúrása: Megtekintes
+INSERT INTO Megtekintes (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
 VALUES (megtekintes_seq.NEXTVAL, 2, 4, TIMESTAMP '2023-04-11 13:10:00', 845);
 
-INSERT INTO Megtekintesek (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
+INSERT INTO Megtekintes (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
 VALUES (megtekintes_seq.NEXTVAL, 4, 2, TIMESTAMP '2023-03-26 10:25:00', 1200);
 
-INSERT INTO Megtekintesek (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
+INSERT INTO Megtekintes (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
 VALUES (megtekintes_seq.NEXTVAL, 6, 6, TIMESTAMP '2023-05-06 19:30:00', 732);
 
-INSERT INTO Megtekintesek (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
+INSERT INTO Megtekintes (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
 VALUES (megtekintes_seq.NEXTVAL, 8, 10, TIMESTAMP '2023-02-16 21:15:00', 3000);
 
-INSERT INTO Megtekintesek (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
+INSERT INTO Megtekintes (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
 VALUES (megtekintes_seq.NEXTVAL, 10, 8, TIMESTAMP '2023-01-31 12:40:00', 612);
 
 -- 12. Adatok beszúrása: Ajanlasok

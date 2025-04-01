@@ -124,6 +124,16 @@ CREATE TABLE Ajanlasok (
     CONSTRAINT fk_ajanlasok_video FOREIGN KEY (video_id) REFERENCES Video(video_id)
 );
 
+-- sequencek törlése
+DROP SEQUENCE felhasznalo_seq;
+DROP SEQUENCE kategoria_seq;
+DROP SEQUENCE video_seq;
+DROP SEQUENCE hozzaszolas_seq;
+DROP SEQUENCE cimke_seq;
+DROP SEQUENCE lejatszasilista_seq;
+DROP SEQUENCE megtekintes_seq;
+DROP SEQUENCE ajanlas_seq;
+
 -- sequencek letrehozasa
 CREATE SEQUENCE felhasznalo_seq START WITH 1 INCREMENT BY 1;
 CREATE SEQUENCE kategoria_seq START WITH 1 INCREMENT BY 1;
