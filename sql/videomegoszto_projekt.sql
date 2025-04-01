@@ -1,4 +1,4 @@
--- táblák törlése, ha létezik
+-- tablak torlese, ha letezik
 DROP TABLE Megtekintes CASCADE CONSTRAINTS PURGE;
 DROP TABLE Hozzaszolas CASCADE CONSTRAINTS PURGE;
 DROP TABLE Kedvencek CASCADE CONSTRAINTS PURGE;
@@ -7,7 +7,7 @@ DROP TABLE LejatszasiLista CASCADE CONSTRAINTS PURGE;
 DROP TABLE Video CASCADE CONSTRAINTS PURGE;
 DROP TABLE Felhasznalo CASCADE CONSTRAINTS PURGE;
 
--- táblák létrehozása
+-- tablak letrehozasa
 CREATE TABLE Felhasznalo (
     felhasznalo_id INT PRIMARY KEY,
     felhasznalonev VARCHAR(50) UNIQUE NOT NULL,
@@ -26,8 +26,12 @@ CREATE TABLE Video (
     feltoltes_datum TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
     hossz INT NOT NULL,
     is_short NUMBER(1) DEFAULT 0,
-    miniatûr_url VARCHAR(255),
-    video_url VARCHAR(255) NOT NULL
+    miniatur_url VARCHAR(255),
+    video_url VARCHAR(255) NOT NULL,
+    kategoria_id INT NOT NULL,
+    felhasznalo_id INT NOT NULL,
+    FOREIGN KEY (kategoria_id) REFERENCES Kategoria(kategoria_id),
+    FOREIGN KEY (felhasznalo_id) REFERENCES Felhasznalo(felhasznalo_id) ON DELETE CASCADE
 );
 
 CREATE TABLE LejatszasiLista (
@@ -76,4 +80,29 @@ CREATE TABLE Megtekintes (
     felhasznalo_id INT NOT NULL,
     FOREIGN KEY (video_id) REFERENCES Video(video_id) ON DELETE CASCADE,
     FOREIGN KEY (felhasznalo_id) REFERENCES Felhasznalo(felhasznalo_id) ON DELETE CASCADE
+);
+
+CREATE TABLE VideoMetadata (
+    video_url VARCHAR(255),
+    miniatur_url VARCHAR(255),
+    beagyazasi_kod CLOB,
+    FOREIGN KEY (video_url) REFERENCES Video(video_url) ON DELETE CASCADE
+);
+
+CREATE TABLE VideoCimke (
+    cimke_id INT,
+    video_id INT,
+    PRIMARY KEY (cimke_id, video_id),
+    FOREIGN KEY (cimke_id) REFERENCES Cimke(cimke_id) ON DELETE CASCADE,
+    FOREIGN KEY (video_id) REFERENCES Video(video_id) ON DELETE CASCADE
+);
+
+CREATE TABLE Kategoria (
+    kategoria_id INT PRIMARY KEY,
+    nev VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Cimke (
+    cimke_id INT PRIMARY KEY,
+    nev VARCHAR(100) NOT NULL
 );
