@@ -2,6 +2,8 @@
 // munkamenet indítása
 session_start();
 
+
+
 // üzenetek inicializálása
 $error_message = "";
 $success_message = "";
@@ -26,7 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Adatbáziskapcsolat létrehozása
             $conn_string = "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=$host)(PORT=$port))(CONNECT_DATA=(SID=$sid)))";
             $conn = oci_connect($username, $password, $conn_string, 'AL32UTF8');
-                
+        
+
             // Ha nem sikerült az adatbáziskapcsolat
             if (!$conn) {
                 $e = oci_error();
@@ -45,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             oci_execute($stmt);
             
             // Eredmény lekérése
-            $user = oci_fetch_assoc($stmt);
+            $user = oci_fetch_array($stmt, OCI_ASSOC);
 
             // SHA1-es kódolás a jelszó összehasonlításához
             $hashed_password = sha1($input_password);

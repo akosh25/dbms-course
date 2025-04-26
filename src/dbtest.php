@@ -1,22 +1,23 @@
 <?php
 
+$host = "localhost";
+$port = "1521";
+$sid = "xe"; 
+$username = "LOGIN";
+$password = "oracle";
 
-// kapcsolat
-$servername = "localhost";
-$username = "root"; 
-$password = "";     
-$dbname = "videomegoszto"; 
+
+$conn_string = "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=$host)(PORT=$port))(CONNECT_DATA=(SID=$sid)))";
+$conn = oci_connect($username, $password, $conn_string, 'AL32UTF8');
 
 
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// kapcsolat ellenőrzése
-if ($conn->connect_error) {
-    die("<h2>Hiba történt a csatlakozás során: " . $conn->connect_error . "</h2>");
+if (!$conn) {
+    $e = oci_error();
+    echo "<p style='color: red;'>Sikertelen adatbáziskapcsolat: " . $e['message'] . "</p>";
 } else {
-    echo "<h2>Sikeres csatlakozás az adatbázishoz!</h2>";
+    echo "<p style='color: green;'>Sikeresen csatlakozott az adatbázishoz!</p>";
 }
 
 
-$conn->close();
+oci_close($conn);
 ?>

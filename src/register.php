@@ -16,6 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = trim($_POST["email"] ?? "");
     $jelszo = $_POST["password"] ?? "";
     $jelszo_ujra = $_POST["confirm_password"] ?? "";
+    $szerepkor = isset($_POST['is_admin']) ? 'admin' : 'user';
 
     // Ellenőrzés
     if (empty($felhasznalonev) || empty($email) || empty($jelszo) || empty($jelszo_ujra)) {
@@ -48,11 +49,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Felhasználó mentése
             $insert_sql = "INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
-               VALUES (felhasznalo_seq.NEXTVAL, :uname, :email, :pwd, 'user', SYSTIMESTAMP, NULL, NULL, NULL)";
+               VALUES (felhasznalo_seq.NEXTVAL, :uname, :email, :pwd, :role, SYSTIMESTAMP, NULL, NULL, NULL)";
             $insert_stmt = oci_parse($conn, $insert_sql);
             oci_bind_by_name($insert_stmt, ":uname", $felhasznalonev);
             oci_bind_by_name($insert_stmt, ":email", $email);
             oci_bind_by_name($insert_stmt, ":pwd", $hashed_password);
+            oci_bind_by_name($insert_stmt, ":role", $szerepkor);
 
             if (oci_execute($insert_stmt)) {
                 $success_message = "Sikeres regisztráció! Most már bejelentkezhetsz.";
@@ -107,6 +109,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="form-group">
                 <label for="confirm_password">Jelszó megerősítése:</label>
                 <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="is_admin">Admin jogot kérek:</label>
+                <input type="checkbox" id="is_admin" name="is_admin">
             </div>
 
             <div class="form-group">

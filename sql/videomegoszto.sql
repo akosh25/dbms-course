@@ -208,7 +208,7 @@ ALTER SEQUENCE megtekintes_seq RESTART START WITH 1;
 ALTER SEQUENCE ajanlas_seq RESTART START WITH 1;
 
 -- 1. Adatok beszúrása: Felhasznalo
-INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, regisztracio_idobont, utolso_bejelentkezes, profilkep_url, bio)
+INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
 VALUES (felhasznalo_seq.NEXTVAL, 'Munkácsy Mihály', 'munkacsy.mihaly@pelda.com', 'A_zeneszoba1878', 'user', TIMESTAMP '2022-01-15 10:30:00', TIMESTAMP '2023-05-20 14:45:00', 'https://pelda.com/profilkepek/munkacsy.jpg', '...');
 
 INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
