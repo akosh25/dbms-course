@@ -20,7 +20,8 @@ CREATE TABLE Felhasznalo (
     felhasznalonev VARCHAR2(100) NOT NULL,
     email VARCHAR2(100) NOT NULL,
     jelszo VARCHAR2(100) NOT NULL,
-    regisztracio_idobont TIMESTAMP,
+	szerepkor VARCHAR2(20) DEFAULT 'user' NOT NULL,
+    regisztracio_idopont TIMESTAMP,
     utolso_bejelentkezes TIMESTAMP,
     profilkep_url VARCHAR2(200),
     bio VARCHAR2(500)
@@ -207,20 +208,20 @@ ALTER SEQUENCE megtekintes_seq RESTART START WITH 1;
 ALTER SEQUENCE ajanlas_seq RESTART START WITH 1;
 
 -- 1. Adatok beszúrása: Felhasznalo
-INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, regisztracio_idobont, utolso_bejelentkezes, profilkep_url, bio)
-VALUES (felhasznalo_seq.NEXTVAL, 'Munkácsy Mihály', 'munkacsy.mihaly@pelda.com', 'A_zeneszoba1878', TIMESTAMP '2022-01-15 10:30:00', TIMESTAMP '2023-05-20 14:45:00', 'https://pelda.com/profilkepek/munkacsy.jpg', 'Tudtam, hogy festő leszek, s ennek a gondolatnak éltem.');
+INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, regisztracio_idobont, utolso_bejelentkezes, profilkep_url, bio)
+VALUES (felhasznalo_seq.NEXTVAL, 'Munkácsy Mihály', 'munkacsy.mihaly@pelda.com', 'A_zeneszoba1878', 'user', TIMESTAMP '2022-01-15 10:30:00', TIMESTAMP '2023-05-20 14:45:00', 'https://pelda.com/profilkepek/munkacsy.jpg', '...');
 
-INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, regisztracio_idobont, utolso_bejelentkezes, profilkep_url, bio)
-VALUES (felhasznalo_seq.NEXTVAL, 'Liszt Ferenc', 'liszt.ferenc@pelda.com', 'Magyar_rapszodiak1853', TIMESTAMP '2022-02-20 09:15:00', TIMESTAMP '2023-05-19 16:30:00', 'https://pelda.com/profilkepek/lisztferenc.jpg', 'Minden művészet egyazon forrásból ered.');
+INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
+VALUES (felhasznalo_seq.NEXTVAL, 'Liszt Ferenc', 'liszt.ferenc@pelda.com', 'Magyar_rapszodiak1853', 'admin', TIMESTAMP '2022-02-20 09:15:00', TIMESTAMP '2023-05-19 16:30:00', 'https://pelda.com/profilkepek/lisztferenc.jpg', 'Minden művészet egyazon forrásból ered.');
 
-INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, regisztracio_idobont, utolso_bejelentkezes, profilkep_url, bio)
-VALUES (felhasznalo_seq.NEXTVAL, 'Robert Capa', 'robert.capa@pelda.com', 'Kisse_elmosodva1947', TIMESTAMP '2022-03-10 14:20:00', TIMESTAMP '2023-05-18 11:25:00', 'https://pelda.com/profilkepek/robertcapa.jpg', 'Ha nem elég jók a képeid, nem voltál elég közel.');
+INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
+VALUES (felhasznalo_seq.NEXTVAL, 'Robert Capa', 'robert.capa@pelda.com', 'Kisse_elmosodva1947', 'user', TIMESTAMP '2022-03-10 14:20:00', TIMESTAMP '2023-05-18 11:25:00', 'https://pelda.com/profilkepek/robertcapa.jpg', 'Ha nem elég jók a képeid, nem voltál elég közel.');
 
-INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, regisztracio_idobont, utolso_bejelentkezes, profilkep_url, bio)
-VALUES (felhasznalo_seq.NEXTVAL, 'Jávor Pál', 'javor.pal@pelda.com', 'Halalos_tavasz1939', TIMESTAMP '2022-04-05 11:45:00', TIMESTAMP '2023-05-17 19:10:00', 'https://pelda.com/profilkepek/javorpal.jpg', 'Csak azt is eljátszottam, ha kellett.');
+INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
+VALUES (felhasznalo_seq.NEXTVAL, 'Jávor Pál', 'javor.pal@pelda.com', 'Halalos_tavasz1939', 'user', TIMESTAMP '2022-04-05 11:45:00', TIMESTAMP '2023-05-17 19:10:00', 'https://pelda.com/profilkepek/javorpal.jpg', 'Csak azt is eljátszottam, ha kellett.');
 
-INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, regisztracio_idobont, utolso_bejelentkezes, profilkep_url, bio)
-VALUES (felhasznalo_seq.NEXTVAL, 'Babits Mihály', 'babits.mihaly@pelda.com', 'A_golyakalifa1913', TIMESTAMP '2022-05-12 16:50:00', TIMESTAMP '2023-05-16 08:55:00', 'https://pelda.com/profilkepek/babitsmihaly.jpg', 'A kimerült író olyan, mint a megcsalt férj: maga veszi észre legkésőbb a szomorú igazságot.');
+INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
+VALUES (felhasznalo_seq.NEXTVAL, 'Babits Mihály', 'babits.mihaly@pelda.com', 'A_golyakalifa1913', 'user', TIMESTAMP '2022-05-12 16:50:00', TIMESTAMP '2023-05-16 08:55:00', 'https://pelda.com/profilkepek/babitsmihaly.jpg', 'A kimerült író olyan, mint a megcsalt férj: maga veszi észre legkésőbb a szomorú igazságot.');
 
 -- 2. Adatok beszúrása: Kategoria
 INSERT INTO Kategoria (kategoria_id, nev, leiras)

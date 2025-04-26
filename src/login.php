@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             
             // Email alapján felhasználót keres
-            $sql = "SELECT felhasznalo_id, email, jelszo, felhasznalonev FROM Felhasznalo WHERE email = :email";
+            $sql = "SELECT felhasznalo_id, email, jelszo, felhasznalonev, szerepkor FROM Felhasznalo WHERE email = :email";
             $stmt = oci_parse($conn, $sql);
             
             // SQL befecskendezés elkerülése
@@ -53,18 +53,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Ha a felhasználó létezik és a jelszó helyes
             if ($user && $hashed_password === $user['JELSZO']) {
-                    $success_message = "Sikeres bejelentkezés";
+                    
+                
+                $success_message = "Sikeres bejelentkezés";
                     
                     // Felhasználó adatainak mentése a munkamenetbe
                     $_SESSION['user_id'] = $user['FELHASZNALO_ID'];
                     $_SESSION['username'] = $user['FELHASZNALONEV'];
                     $_SESSION['email'] = $user['EMAIL'];
+                    $_SESSION['role'] = $user['SZEREPKOR'];
                     
                     // Utolsó bejelentkezés időpontjának frissítése
                     $update_sql = "UPDATE Felhasznalo SET utolso_bejelentkezes = SYSTIMESTAMP WHERE felhasznalo_id = :user_id";
                     $update_stmt = oci_parse($conn, $update_sql);
                     oci_bind_by_name($update_stmt, ":user_id", $user['FELHASZNALO_ID']);
                     oci_execute($update_stmt);
+
+                    header("Location: dashboard.php");
+                    exit();
                     
                 } 
                 else {

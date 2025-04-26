@@ -47,8 +47,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $hashed_password = sha1($jelszo);
 
             // Felhasználó mentése
-            $insert_sql = "INSERT INTO Felhasznalo (felhasznalonev, email, jelszo, utolso_bejelentkezes)
-                           VALUES (:uname, :email, :pwd, SYSTIMESTAMP)";
+            $insert_sql = "INSERT INTO Felhasznalo (felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
+               VALUES (felhasznalo_seq.NEXTVAL, :uname, :email, :pwd, 'user', SYSTIMESTAMP, NULL, NULL, NULL)";
             $insert_stmt = oci_parse($conn, $insert_sql);
             oci_bind_by_name($insert_stmt, ":uname", $felhasznalonev);
             oci_bind_by_name($insert_stmt, ":email", $email);
