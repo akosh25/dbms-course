@@ -2,8 +2,6 @@
 // munkamenet indítása
 session_start();
 
-
-
 // üzenetek inicializálása
 $error_message = "";
 $success_message = "";
@@ -28,8 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Adatbáziskapcsolat létrehozása
             $conn_string = "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=$host)(PORT=$port))(CONNECT_DATA=(SID=$sid)))";
             $conn = oci_connect($username, $password, $conn_string, 'AL32UTF8');
-        
-
+                
             // Ha nem sikerült az adatbáziskapcsolat
             if (!$conn) {
                 $e = oci_error();
@@ -48,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             oci_execute($stmt);
             
             // Eredmény lekérése
-            $user = oci_fetch_array($stmt, OCI_ASSOC);
+            $user = oci_fetch_assoc($stmt);
 
             // SHA1-es kódolás a jelszó összehasonlításához
             $hashed_password = sha1($input_password);
@@ -56,15 +53,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Ha a felhasználó létezik és a jelszó helyes
             if ($user && $hashed_password === $user['JELSZO']) {
-                    
-                
-                $success_message = "Sikeres bejelentkezés";
+                    $success_message = "Sikeres bejelentkezés";
                     
                     // Felhasználó adatainak mentése a munkamenetbe
                     $_SESSION['user_id'] = $user['FELHASZNALO_ID'];
                     $_SESSION['username'] = $user['FELHASZNALONEV'];
                     $_SESSION['email'] = $user['EMAIL'];
-                    $_SESSION['role'] = $user['SZEREPKOR'];
+                    $_SESSION['szerepkor'] = $user["SZEREPKOR"];
                     
                     // Utolsó bejelentkezés időpontjának frissítése
                     $update_sql = "UPDATE Felhasznalo SET utolso_bejelentkezes = SYSTIMESTAMP WHERE felhasznalo_id = :user_id";
@@ -72,8 +67,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     oci_bind_by_name($update_stmt, ":user_id", $user['FELHASZNALO_ID']);
                     oci_execute($update_stmt);
 
+                    // átirányítás a dashboard.phph-ra
                     header("Location: dashboard.php");
-                    exit();
+                    exit;
                     
                 } 
                 else {
@@ -94,8 +90,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bejelentkezés - Videó Megosztó Platform</title>
     <link rel="stylesheet" href="style.css">
+
+    
+
 </head>
 <body>
+<?php include 'menu.php'; ?>
+
     <div class="container">
         <div class="login-form">
             <h2>Bejelentkezés</h2>

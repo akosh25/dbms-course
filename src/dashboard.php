@@ -13,8 +13,12 @@ if (!isset($_SESSION['user_id'])) {
     <meta charset="UTF-8">
     <title>Dashboard - Videó Megosztó Platform</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+<?php include 'menu.php'; ?>
+
+
 <div class="container">
     <div class="login-form">
         <h2>Üdvözöllek, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h2>

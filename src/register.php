@@ -78,6 +78,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php include 'menu.php'; ?>
+
 <div class="container">
     <div class="login-form">
         <h2>Regisztráció</h2>
