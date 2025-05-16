@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $_SESSION['email'] = $user['EMAIL'];
                     $_SESSION['szerepkor'] = $user["SZEREPKOR"];
                     
-                    // UPDATE a trigger kiváltása miatt
+                    // Utolsó bejelentkezés időpontjának frissítése
                     $update_sql = "UPDATE Felhasznalo SET felhasznalonev = felhasznalonev WHERE felhasznalo_id = :user_id";
                     $update_stmt = oci_parse($conn, $update_sql);
                     oci_bind_by_name($update_stmt, ":user_id", $user['FELHASZNALO_ID']);

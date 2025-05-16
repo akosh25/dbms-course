@@ -149,6 +149,17 @@ oci_close($conn);
         </p>
     <?php endif; ?>
 
+    <?php if (isset($_GET['confirm_replace']) && isset($_GET['kategoria'])): ?>
+    <form method="post" action="lejatszasi_lista_kategoria.php">
+        <input type="hidden" name="kategoria_id" value="<?php echo (int)$_GET['kategoria']; ?>">
+        <input type="hidden" name="megerosites" value="1">
+        <p style="color: red;">Már létezik ilyen nevű lejátszási lista. Szeretnéd lecserélni?</p>
+        <button type="submit">Lecserélem</button>
+        <a href="videok.php?kategoria=<?php echo (int)$_GET['kategoria']; ?>"><button type="button">Mégse</button></a>
+    </form>
+<?php endif; ?>
+
+
 
 <div style="max-width: 400px; text-align: left;">
     <!-- Keresési űrlap -->
@@ -183,20 +194,23 @@ oci_close($conn);
 </div>
 
 
-    <h2>Találatok:</h2>
-    <?php if (count($talalatok) === 0): ?>
-        <p>Nincs találat.</p>
-    <?php else: ?>
-        <ul>
+<h2>Találatok:</h2>
+<?php if (count($talalatok) === 0): ?>
+    <p>Nincs találat.</p>
+<?php else: ?>
+    <div style="max-height: 600px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; margin-bottom: 20px;">
+        <ul style="margin: 0; padding-left: 20px;">
             <?php foreach ($talalatok as $video): ?>
-                <li>
+                <li style="margin-bottom: 15px;">
                     <strong><?php echo htmlspecialchars($video['CIM']); ?></strong> (<?php echo htmlspecialchars($video['KATEGORIA_NEV']); ?>)<br>
                     <?php echo htmlspecialchars($video['LEIRAS']); ?><br>
                     <a href="<?php echo htmlspecialchars($video['VIDEO_URL']); ?>" target="_blank">Videó megtekintése</a>
                 </li>
             <?php endforeach; ?>
         </ul>
-    <?php endif; ?>
+    </div>
+<?php endif; ?>
+
 
     <h2>Legújabb 5 videó:</h2>
     <ul>
