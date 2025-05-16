@@ -32,7 +32,10 @@ if (!isset($_SESSION['user_id'])) {
                 <a href="kategoria_lista.php" style="text-decoration: none; margin-top: 10px;">
                     <button>Kategóriák kezelése</button>
                 </a>
-            </div>
+                <a href="kategoria_log.php" style="text-decoration: none; margin-top: 10px;">
+                    <button>Törölt kategóriák naplója</button>
+                </a>
+                    </div>
         <?php endif; ?>
 
         <form action="logout.php" method="post">
