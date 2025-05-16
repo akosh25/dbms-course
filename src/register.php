@@ -90,6 +90,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <?php if (!empty($success_message)): ?>
             <div class="success-message"><?php echo htmlspecialchars($success_message); ?></div>
+        <form action="login.php" method="get" style="margin-top: 15px;">
+        <button type="submit">Bejelentkezés</button>
+    </form>
         <?php endif; ?>
 
         <form method="post" action="">
