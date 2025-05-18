@@ -1,103 +1,39 @@
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 1', 'Ez a(z) 1. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 2', 'Ez a(z) 2. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 3', 'Ez a(z) 3. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 4', 'Ez a(z) 4. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 5', 'Ez a(z) 5. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 6', 'Ez a(z) 6. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 7', 'Ez a(z) 7. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 8', 'Ez a(z) 8. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 9', 'Ez a(z) 9. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 10', 'Ez a(z) 10. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 11', 'Ez a(z) 11. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 12', 'Ez a(z) 12. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 13', 'Ez a(z) 13. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 14', 'Ez a(z) 14. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 15', 'Ez a(z) 15. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 16', 'Ez a(z) 16. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 17', 'Ez a(z) 17. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 18', 'Ez a(z) 18. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 19', 'Ez a(z) 19. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 20', 'Ez a(z) 20. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 21', 'Ez a(z) 21. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 22', 'Ez a(z) 22. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 23', 'Ez a(z) 23. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 24', 'Ez a(z) 24. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 25', 'Ez a(z) 25. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 26', 'Ez a(z) 26. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 27', 'Ez a(z) 27. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 28', 'Ez a(z) 28. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 29', 'Ez a(z) 29. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 30', 'Ez a(z) 30. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 31', 'Ez a(z) 31. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 32', 'Ez a(z) 32. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 33', 'Ez a(z) 33. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 34', 'Ez a(z) 34. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 35', 'Ez a(z) 35. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 36', 'Ez a(z) 36. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 37', 'Ez a(z) 37. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 38', 'Ez a(z) 38. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 39', 'Ez a(z) 39. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 40', 'Ez a(z) 40. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 41', 'Ez a(z) 41. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 42', 'Ez a(z) 42. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 43', 'Ez a(z) 43. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 44', 'Ez a(z) 44. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 45', 'Ez a(z) 45. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 46', 'Ez a(z) 46. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 47', 'Ez a(z) 47. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 48', 'Ez a(z) 48. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 49', 'Ez a(z) 49. kategória leírása');
-INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 50', 'Ez a(z) 50. kategória leírása');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 1');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 2');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 3');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 4');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 5');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 6');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 7');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 8');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 9');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 10');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 11');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 12');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 13');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 14');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 15');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 16');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 17');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 18');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 19');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 20');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 21');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 22');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 23');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 24');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 25');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 26');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 27');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 28');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 29');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 30');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 31');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 32');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 33');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 34');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 35');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 36');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 37');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 38');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 39');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 40');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 41');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 42');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 43');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 44');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 45');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 46');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 47');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 48');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 49');
-INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 50');
+
+-- 1. Adatok beszúrása: Felhasznalo
+INSERT INTO Felhasznalo (
+	felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, 
+	regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
+VALUES (
+	felhasznalo_seq.NEXTVAL, 'Munkácsy Mihály', 'munkacsy.mihaly@pelda.com', 'A_zeneszoba1878', 'user', 
+	TIMESTAMP '2022-01-15 10:30:00', TIMESTAMP '2023-05-20 14:45:00', 'https://pelda.com/profilkepek/munkacsy.jpg', '...');
+
+INSERT INTO Felhasznalo (
+	felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, 
+	regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
+VALUES (
+	felhasznalo_seq.NEXTVAL, 'Liszt Ferenc', 'liszt.ferenc@pelda.com', 'Magyar_rapszodiak1853', 'admin', 
+	TIMESTAMP '2022-02-20 09:15:00', TIMESTAMP '2023-05-19 16:30:00', 'https://pelda.com/profilkepek/lisztferenc.jpg', 'Minden művészet egyazon forrásból ered.');
+
+INSERT INTO Felhasznalo (
+	felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, 
+	regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
+VALUES (
+	felhasznalo_seq.NEXTVAL, 'Robert Capa', 'robert.capa@pelda.com', 'Kisse_elmosodva1947', 'user', 
+	TIMESTAMP '2022-03-10 14:20:00', TIMESTAMP '2023-05-18 11:25:00', 'https://pelda.com/profilkepek/robertcapa.jpg', 'Ha nem elég jók a képeid, nem voltál elég közel.');
+
+INSERT INTO Felhasznalo (
+	felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, 
+	regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
+VALUES (
+	felhasznalo_seq.NEXTVAL, 'Jávor Pál', 'javor.pal@pelda.com', 'Halalos_tavasz1939', 'user', 
+	TIMESTAMP '2022-04-05 11:45:00', TIMESTAMP '2023-05-17 19:10:00', 'https://pelda.com/profilkepek/javorpal.jpg', 'Csak azt is eljátszottam, ha kellett.');
+
+INSERT INTO Felhasznalo (
+	felhasznalo_id, felhasznalonev, email, jelszo, szerepkor, 
+	regisztracio_idopont, utolso_bejelentkezes, profilkep_url, bio)
+VALUES (
+	felhasznalo_seq.NEXTVAL, 'Babits Mihály', 'babits.mihaly@pelda.com', 'A_golyakalifa1913', 'user', 
+	TIMESTAMP '2022-05-12 16:50:00', TIMESTAMP '2023-05-16 08:55:00', 'https://pelda.com/profilkepek/babitsmihaly.jpg', 'A kimerült író olyan, mint a megcsalt férj: maga veszi észre legkésőbb a szomorú igazságot.');
 
 INSERT INTO Felhasznalo (
     felhasznalo_id, felhasznalonev, email, jelszo, szerepkor,
@@ -1299,6 +1235,84 @@ INSERT INTO Felhasznalo (
     SYSTIMESTAMP, SYSTIMESTAMP, 'https://example.com/user150.jpg', 'Ez a(z) 150. felhasználó bemutatkozása.'
 );
 
+
+-- 2. Adatok beszúrása: Kategoria
+INSERT INTO Kategoria ( nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Festészet', 'Videók festőkről, festészetről');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Zeneművészet', 'Koncertfelvételek, zeneművek videói, okatatóanyagok');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Fotóművészet', 'Fotózással és fotósokkal kapcsolatos videók');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Színészet', 'Színészekkel és színészettel foglalkozó videók');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Irodalom-művészet', 'Irodalommal, foglalkozó videók, oktatóanyagok');
+
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 1', 'Ez a(z) 1. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 2', 'Ez a(z) 2. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 3', 'Ez a(z) 3. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 4', 'Ez a(z) 4. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 5', 'Ez a(z) 5. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 6', 'Ez a(z) 6. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 7', 'Ez a(z) 7. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 8', 'Ez a(z) 8. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 9', 'Ez a(z) 9. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 10', 'Ez a(z) 10. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 11', 'Ez a(z) 11. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 12', 'Ez a(z) 12. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 13', 'Ez a(z) 13. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 14', 'Ez a(z) 14. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 15', 'Ez a(z) 15. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 16', 'Ez a(z) 16. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 17', 'Ez a(z) 17. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 18', 'Ez a(z) 18. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 19', 'Ez a(z) 19. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 20', 'Ez a(z) 20. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 21', 'Ez a(z) 21. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 22', 'Ez a(z) 22. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 23', 'Ez a(z) 23. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 24', 'Ez a(z) 24. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 25', 'Ez a(z) 25. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 26', 'Ez a(z) 26. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 27', 'Ez a(z) 27. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 28', 'Ez a(z) 28. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 29', 'Ez a(z) 29. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 30', 'Ez a(z) 30. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 31', 'Ez a(z) 31. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 32', 'Ez a(z) 32. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 33', 'Ez a(z) 33. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 34', 'Ez a(z) 34. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 35', 'Ez a(z) 35. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 36', 'Ez a(z) 36. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 37', 'Ez a(z) 37. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 38', 'Ez a(z) 38. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 39', 'Ez a(z) 39. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 40', 'Ez a(z) 40. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 41', 'Ez a(z) 41. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 42', 'Ez a(z) 42. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 43', 'Ez a(z) 43. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 44', 'Ez a(z) 44. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 45', 'Ez a(z) 45. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 46', 'Ez a(z) 46. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 47', 'Ez a(z) 47. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 48', 'Ez a(z) 48. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 49', 'Ez a(z) 49. kategória leírása');
+INSERT INTO Kategoria (kategoria_id, nev, leiras) VALUES (kategoria_seq.NEXTVAL, 'Kategória 50', 'Ez a(z) 50. kategória leírása');
+
+
+-- 3. Adatok beszúrása: Video
+INSERT INTO Video (video_id, cim, leiras, feltoltes_datum, felhasznalo_id, hossz, is_short, video_url)
+VALUES (video_seq.NEXTVAL, 'Bevezetés a festészetbe', 'A színek pszichológiai hatása, színkeverés', TIMESTAMP '2023-02-10 09:30:00', 1, 3, 845, 0, 'https://pelda.com/videok/szinkeveres.mp4');
+
+INSERT INTO Video (video_id, cim, leiras, feltoltes_datum, felhasznalo_id, hossz, is_short, video_url)
+VALUES (video_seq.NEXTVAL, 'Liszt Ferenc: II. Magyar rapszódia', 'November 17-én a hazai művészeti élet 69 kiválósága vette át a Nemzet Művésze díjat a Vigadóban. Az ünnepi rendezvényen Liszt Ferenc II. Magyar rapszódiáját Bogányi Gergely Kossuth- és Liszt Ferenc-díjas zongoraművész előadásában hallgathatták meg a díjazottak.', TIMESTAMP '2023-03-25 14:15:00', 2, 4, 1256, 0, 'https://pelda.com/videok/magyar-rapszodia.mp4');
+
+INSERT INTO Video (video_id, cim, leiras, feltoltes_datum, felhasznalo_id, hossz, is_short, video_url)
+VALUES (video_seq.NEXTVAL, 'Hogyan készíts jó fotókat a nyaraláson', 'Tanuld meg, a fotózás fortályait, hogy a barátaid számára is élvezetesek legyenek a fotóid!', TIMESTAMP '2023-05-05 11:20:00', 3, 5, 732, 0, 'https://pelda.com/videok/fotozas.mp4');
+
+INSERT INTO Video (video_id, cim, leiras, feltoltes_datum, felhasznalo_id, hossz, is_short, video_url)
+VALUES (video_seq.NEXTVAL, 'Csehov - Cseresznyéskert', '2007. március 17-i bemutató felvétele a Vígszínházból.', TIMESTAMP '2023-02-15 16:45:00', 4, 3, 3650, 0, 'https://pelda.com/videok/cseresznyeskert.mp4');
+
+INSERT INTO Video (video_id, cim, leiras, feltoltes_datum, felhasznalo_id, hossz, is_short, video_url)
+VALUES (video_seq.NEXTVAL, 'Magyar irodalom-érettségi témakörök', 'Átbeszáljük az érettségi témaköröket, hogy ne érjen meglepetés az érettségin!', TIMESTAMP '2023-01-30 10:00:00', 5, 1, 612, 1, 'https://pelda.com/videok/irodalom-erettsegi.mp4');
+
+
+
 INSERT INTO Video (
     video_id, cim, leiras, feltoltes_datum, felhasznalo_id, hossz, is_short, video_url
 ) VALUES (
@@ -2198,506 +2212,24 @@ INSERT INTO Video (
 ) VALUES (
     video_seq.NEXTVAL, 'Videó 150', 'Leírás a(z) 150. videóhoz', SYSTIMESTAMP, 1, 450, 1, 'https://video.hu/video_150.mp4'
 );
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (1, 2);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (2, 3);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (3, 4);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (3, 9);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (4, 5);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (5, 6);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (6, 7);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (6, 12);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (7, 8);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (8, 9);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (9, 10);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (9, 15);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (10, 11);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (11, 12);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (12, 13);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (12, 18);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (13, 14);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (14, 15);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (15, 16);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (15, 21);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (16, 17);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (17, 18);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (18, 19);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (18, 24);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (19, 20);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (20, 21);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (21, 22);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (21, 27);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (22, 23);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (23, 24);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (24, 25);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (24, 30);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (25, 26);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (26, 27);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (27, 28);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (27, 33);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (28, 29);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (29, 30);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (30, 31);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (30, 36);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (31, 32);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (32, 33);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (33, 34);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (33, 39);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (34, 35);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (35, 36);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (36, 37);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (36, 42);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (37, 38);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (38, 39);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (39, 40);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (39, 45);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (40, 41);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (41, 42);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (42, 43);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (42, 48);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (43, 44);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (44, 45);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (45, 46);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (45, 1);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (46, 47);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (47, 48);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (48, 49);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (48, 4);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (49, 50);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (50, 1);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (51, 2);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (51, 7);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (52, 3);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (53, 4);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (54, 5);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (54, 10);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (55, 6);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (56, 7);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (57, 8);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (57, 13);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (58, 9);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (59, 10);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (60, 11);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (60, 16);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (61, 12);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (62, 13);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (63, 14);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (63, 19);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (64, 15);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (65, 16);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (66, 17);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (66, 22);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (67, 18);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (68, 19);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (69, 20);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (69, 25);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (70, 21);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (71, 22);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (72, 23);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (72, 28);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (73, 24);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (74, 25);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (75, 26);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (75, 31);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (76, 27);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (77, 28);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (78, 29);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (78, 34);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (79, 30);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (80, 31);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (81, 32);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (81, 37);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (82, 33);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (83, 34);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (84, 35);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (84, 40);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (85, 36);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (86, 37);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (87, 38);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (87, 43);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (88, 39);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (89, 40);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (90, 41);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (90, 46);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (91, 42);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (92, 43);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (93, 44);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (93, 49);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (94, 45);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (95, 46);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (96, 47);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (96, 2);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (97, 48);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (98, 49);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (99, 50);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (99, 5);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (100, 1);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (101, 2);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (102, 3);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (102, 8);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (103, 4);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (104, 5);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (105, 6);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (105, 11);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (106, 7);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (107, 8);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (108, 9);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (108, 14);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (109, 10);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (110, 11);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (111, 12);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (111, 17);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (112, 13);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (113, 14);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (114, 15);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (114, 20);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (115, 16);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (116, 17);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (117, 18);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (117, 23);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (118, 19);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (119, 20);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (120, 21);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (120, 26);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (121, 22);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (122, 23);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (123, 24);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (123, 29);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (124, 25);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (125, 26);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (126, 27);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (126, 32);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (127, 28);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (128, 29);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (129, 30);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (129, 35);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (130, 31);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (131, 32);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (132, 33);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (132, 38);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (133, 34);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (134, 35);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (135, 36);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (135, 41);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (136, 37);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (137, 38);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (138, 39);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (138, 44);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (139, 40);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (140, 41);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (141, 42);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (141, 47);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (142, 43);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (143, 44);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (144, 45);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (144, 50);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (145, 46);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (146, 47);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (147, 48);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (147, 3);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (148, 49);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (149, 50);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (150, 1);
-INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (150, 6);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (1, 2);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (1, 3);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (2, 3);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (2, 5);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (2, 7);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (3, 4);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (4, 5);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (4, 9);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (5, 6);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (5, 11);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (5, 16);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (6, 7);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (7, 8);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (7, 15);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (8, 9);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (8, 17);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (8, 25);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (9, 10);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (10, 11);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (10, 21);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (11, 12);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (11, 23);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (11, 34);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (12, 13);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (13, 14);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (13, 27);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (14, 15);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (14, 29);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (14, 43);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (15, 16);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (16, 17);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (16, 33);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (17, 18);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (17, 35);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (17, 2);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (18, 19);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (19, 20);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (19, 39);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (20, 21);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (20, 41);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (20, 11);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (21, 22);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (22, 23);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (22, 45);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (23, 24);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (23, 47);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (23, 20);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (24, 25);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (25, 26);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (25, 1);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (26, 27);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (26, 3);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (26, 29);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (27, 28);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (28, 29);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (28, 7);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (29, 30);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (29, 9);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (29, 38);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (30, 31);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (31, 32);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (31, 13);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (32, 33);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (32, 15);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (32, 47);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (33, 34);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (34, 35);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (34, 19);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (35, 36);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (35, 21);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (35, 6);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (36, 37);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (37, 38);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (37, 25);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (38, 39);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (38, 27);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (38, 15);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (39, 40);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (40, 41);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (40, 31);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (41, 42);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (41, 33);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (41, 24);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (42, 43);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (43, 44);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (43, 37);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (44, 45);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (44, 39);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (44, 33);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (45, 46);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (46, 47);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (46, 43);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (47, 48);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (47, 45);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (47, 42);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (48, 49);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (49, 50);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (49, 49);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (50, 1);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (50, 1);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (50, 1);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (51, 2);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (52, 3);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (52, 5);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (53, 4);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (53, 7);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (53, 10);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (54, 5);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (55, 6);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (55, 11);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (56, 7);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (56, 13);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (56, 19);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (57, 8);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (58, 9);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (58, 17);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (59, 10);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (59, 19);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (59, 28);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (60, 11);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (61, 12);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (61, 23);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (62, 13);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (62, 25);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (62, 37);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (63, 14);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (64, 15);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (64, 29);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (65, 16);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (65, 31);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (65, 46);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (66, 17);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (67, 18);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (67, 35);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (68, 19);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (68, 37);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (68, 5);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (69, 20);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (70, 21);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (70, 41);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (71, 22);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (71, 43);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (71, 14);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (72, 23);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (73, 24);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (73, 47);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (74, 25);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (74, 49);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (74, 23);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (75, 26);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (76, 27);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (76, 3);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (77, 28);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (77, 5);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (77, 32);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (78, 29);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (79, 30);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (79, 9);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (80, 31);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (80, 11);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (80, 41);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (81, 32);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (82, 33);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (82, 15);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (83, 34);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (83, 17);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (83, 50);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (84, 35);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (85, 36);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (85, 21);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (86, 37);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (86, 23);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (86, 9);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (87, 38);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (88, 39);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (88, 27);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (89, 40);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (89, 29);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (89, 18);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (90, 41);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (91, 42);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (91, 33);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (92, 43);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (92, 35);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (92, 27);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (93, 44);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (94, 45);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (94, 39);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (95, 46);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (95, 41);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (95, 36);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (96, 47);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (97, 48);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (97, 45);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (98, 49);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (98, 47);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (98, 45);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (99, 50);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (100, 1);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (100, 1);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (101, 2);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (101, 3);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (101, 4);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (102, 3);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (103, 4);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (103, 7);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (104, 5);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (104, 9);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (104, 13);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (105, 6);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (106, 7);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (106, 13);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (107, 8);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (107, 15);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (107, 22);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (108, 9);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (109, 10);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (109, 19);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (110, 11);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (110, 21);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (110, 31);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (111, 12);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (112, 13);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (112, 25);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (113, 14);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (113, 27);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (113, 40);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (114, 15);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (115, 16);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (115, 31);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (116, 17);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (116, 33);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (116, 49);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (117, 18);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (118, 19);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (118, 37);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (119, 20);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (119, 39);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (119, 8);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (120, 21);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (121, 22);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (121, 43);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (122, 23);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (122, 45);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (122, 17);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (123, 24);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (124, 25);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (124, 49);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (125, 26);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (125, 1);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (125, 26);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (126, 27);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (127, 28);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (127, 5);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (128, 29);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (128, 7);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (128, 35);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (129, 30);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (130, 31);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (130, 11);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (131, 32);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (131, 13);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (131, 44);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (132, 33);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (133, 34);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (133, 17);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (134, 35);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (134, 19);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (134, 3);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (135, 36);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (136, 37);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (136, 23);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (137, 38);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (137, 25);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (137, 12);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (138, 39);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (139, 40);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (139, 29);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (140, 41);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (140, 31);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (140, 21);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (141, 42);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (142, 43);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (142, 35);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (143, 44);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (143, 37);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (143, 30);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (144, 45);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (145, 46);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (145, 41);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (146, 47);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (146, 43);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (146, 39);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (147, 48);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (148, 49);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (148, 47);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (149, 50);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (149, 49);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (149, 48);
-INSERT INTO VideoCimke (video_id, cimke_id) VALUES (150, 1);
+
+
+-- 4. Adatok beszúrása: VideoMetadata
+INSERT INTO VideoMetadata (video_url, miniatur_url, beagyazasi_kod)
+VALUES ('https://pelda.com/videok/szinkeveres.mp4', 'https://pelda.com/miniaturok/szinkeveres.jpg', '<iframe src="https://pelda.com/beagyazas/szinkeveres"></iframe>');
+
+INSERT INTO VideoMetadata (video_url, miniatur_url, beagyazasi_kod)
+VALUES ('https://pelda.com/videok/magyar-rapszodia.mp4', 'https://pelda.com/miniaturok/magyar-rapszodia.jpg', '<iframe src="https://pelda.com/beagyazas/magyar-rapszodia"></iframe>');
+
+INSERT INTO VideoMetadata (video_url, miniatur_url, beagyazasi_kod)
+VALUES ('https://pelda.com/videok/fotozas.mp4', 'https://pelda.com/miniaturok/fotozas.jpg', '<iframe src="https://pelda.com/beagyazas/fotozas"></iframe>');
+
+INSERT INTO VideoMetadata (video_url, miniatur_url, beagyazasi_kod)
+VALUES ('https://pelda.com/videok/cseresznyeskert.mp4', 'https://pelda.com/miniaturok/cseresznyeskert.jpg', '<iframe src="https://pelda.com/beagyazas/cseresznyeskert"></iframe>');
+
+INSERT INTO VideoMetadata (video_url, miniatur_url, beagyazasi_kod)
+VALUES ('https://pelda.com/videok/irodalom-erettsegi.mp4', 'https://pelda.com/miniaturok/irodalom-erettsegi.jpg', '<iframe src="https://pelda.com/beagyazas/irodalom-erettsegi"></iframe>');
+
 
 INSERT INTO VideoMetadata (video_url, miniatur_url, beagyazasi_kod)
 VALUES ('https://video.hu/video_1.mp4', 'https://video.hu/thumb_1.jpg', '<iframe src="https://video.hu/video_1.mp4"></iframe>');
@@ -3299,6 +2831,24 @@ INSERT INTO VideoMetadata (video_url, miniatur_url, beagyazasi_kod)
 VALUES ('https://video.hu/video_150.mp4', 'https://video.hu/thumb_150.jpg', '<iframe src="https://video.hu/video_150.mp4"></iframe>');
 
 
+
+
+-- 5. Adatok beszúrása: Hozzaszolas
+INSERT INTO Hozzaszolas (hozzaszolas_id, felhasznalo_id, video_id, hozzaszolas_szoveg, letrehozas_datum)
+VALUES (hozzaszolas_seq.NEXTVAL, 2, 1, 'Nagyon sokat tanultam a videódból! Lesz videó az ecsethasználatról valamikor?', TIMESTAMP '2023-04-10 14:25:00');
+
+INSERT INTO Hozzaszolas (hozzaszolas_id, felhasznalo_id, video_id, hozzaszolas_szoveg, letrehozas_datum)
+VALUES (hozzaszolas_seq.NEXTVAL, 2, 2, 'Köszi a feltöltést! Sajnos nem lehettem ott az előadáson, de nagyon örülök, hogy meghallgathattam felvételről.', TIMESTAMP '2023-03-26 09:30:00');
+
+INSERT INTO Hozzaszolas (hozzaszolas_id, felhasznalo_id, video_id, hozzaszolas_szoveg, letrehozas_datum)
+VALUES (hozzaszolas_seq.NEXTVAL, 3, 3, 'Kipróbáltam ezeket a tippeket és nagyon látványos fotókat készítettem a családi nyaraláson! Lesz mit a fotóalbumba tenni!', TIMESTAMP '2023-05-06 18:15:00');
+
+INSERT INTO Hozzaszolas (hozzaszolas_id, felhasznalo_id, video_id, hozzaszolas_szoveg, letrehozas_datum)
+VALUES (hozzaszolas_seq.NEXTVAL, 5, 4, 'Csodálatos darab és nagyon jó felvétel!', TIMESTAMP '2023-02-16 20:45:00');
+
+INSERT INTO Hozzaszolas (hozzaszolas_id, felhasznalo_id, video_id, hozzaszolas_szoveg, letrehozas_datum)
+VALUES (hozzaszolas_seq.NEXTVAL, 4, 5, 'Én tavaly érettségiztem és nagyon sokat segített ez a videó a felkészülésben.', TIMESTAMP '2023-01-31 11:10:00');
+
 INSERT INTO Hozzaszolas (
     hozzaszolas_id, felhasznalo_id, video_id, hozzaszolas_szoveg, letrehozas_datum
 ) VALUES (
@@ -3898,112 +3448,414 @@ INSERT INTO Hozzaszolas (
 ) VALUES (
     hozzaszolas_seq.NEXTVAL, 101, 101, 'Nagyon tetszett a(z) 101. videó!', SYSTIMESTAMP
 );
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (2, 4, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (3, 7, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (4, 10, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (5, 13, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (6, 16, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (7, 19, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (8, 22, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (9, 25, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (10, 28, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (11, 31, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (12, 34, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (13, 37, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (14, 40, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (15, 43, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (16, 46, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (17, 49, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (18, 52, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (19, 55, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (20, 58, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (21, 61, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (22, 64, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (23, 67, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (24, 70, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (25, 73, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (26, 76, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (27, 79, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (28, 82, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (29, 85, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (30, 88, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (31, 91, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (32, 94, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (33, 97, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (34, 100, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (35, 103, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (36, 106, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (37, 109, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (38, 112, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (39, 115, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (40, 118, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (41, 121, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (42, 124, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (43, 127, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (44, 130, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (45, 133, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (46, 136, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (47, 139, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (48, 142, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (49, 145, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (50, 148, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (51, 1, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (52, 4, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (53, 7, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (54, 10, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (55, 13, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (56, 16, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (57, 19, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (58, 22, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (59, 25, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (60, 28, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (61, 31, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (62, 34, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (63, 37, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (64, 40, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (65, 43, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (66, 46, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (67, 49, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (68, 52, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (69, 55, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (70, 58, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (71, 61, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (72, 64, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (73, 67, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (74, 70, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (75, 73, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (76, 76, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (77, 79, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (78, 82, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (79, 85, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (80, 88, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (81, 91, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (82, 94, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (83, 97, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (84, 100, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (85, 103, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (86, 106, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (87, 109, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (88, 112, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (89, 115, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (90, 118, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (91, 121, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (92, 124, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (93, 127, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (94, 130, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (95, 133, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (96, 136, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (97, 139, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (98, 142, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (99, 145, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (100, 148, SYSTIMESTAMP);
-INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (101, 1, SYSTIMESTAMP);
+
+
+-- 6. Adatok beszúrása: Cimke
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'festészet');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'zene');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'fotózás');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'színház');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'oktatás');
+
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 1');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 2');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 3');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 4');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 5');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 6');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 7');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 8');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 9');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 10');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 11');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 12');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 13');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 14');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 15');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 16');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 17');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 18');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 19');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 20');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 21');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 22');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 23');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 24');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 25');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 26');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 27');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 28');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 29');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 30');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 31');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 32');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 33');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 34');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 35');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 36');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 37');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 38');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 39');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 40');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 41');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 42');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 43');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 44');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 45');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 46');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 47');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 48');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 49');
+INSERT INTO Cimke (cimke_id, nev) VALUES (cimke_seq.NEXTVAL, 'Címke 50');
+
+-- 7. Adatok beszúrása: VideoCimke
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (1, 1);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (2, 2);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (3, 3);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (4, 4);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (5, 5);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (1, 2);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (1, 3);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (2, 3);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (2, 5);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (2, 7);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (3, 4);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (4, 5);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (4, 9);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (5, 6);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (5, 11);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (5, 16);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (6, 7);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (7, 8);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (7, 15);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (8, 9);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (8, 17);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (8, 25);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (9, 10);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (10, 11);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (10, 21);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (11, 12);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (11, 23);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (11, 34);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (12, 13);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (13, 14);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (13, 27);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (14, 15);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (14, 29);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (14, 43);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (15, 16);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (16, 17);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (16, 33);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (17, 18);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (17, 35);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (17, 2);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (18, 19);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (19, 20);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (19, 39);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (20, 21);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (20, 41);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (20, 11);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (21, 22);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (22, 23);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (22, 45);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (23, 24);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (23, 47);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (23, 20);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (24, 25);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (25, 26);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (25, 1);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (26, 27);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (26, 3);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (26, 29);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (27, 28);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (28, 29);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (28, 7);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (29, 30);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (29, 9);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (29, 38);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (30, 31);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (31, 32);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (31, 13);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (32, 33);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (32, 15);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (32, 47);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (33, 34);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (34, 35);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (34, 19);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (35, 36);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (35, 21);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (35, 6);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (36, 37);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (37, 38);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (37, 25);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (38, 39);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (38, 27);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (38, 15);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (39, 40);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (40, 41);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (40, 31);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (41, 42);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (41, 33);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (41, 24);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (42, 43);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (43, 44);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (43, 37);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (44, 45);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (44, 39);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (44, 33);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (45, 46);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (46, 47);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (46, 43);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (47, 48);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (47, 45);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (47, 42);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (48, 49);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (49, 50);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (49, 49);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (50, 1);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (50, 1);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (50, 1);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (51, 2);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (52, 3);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (52, 5);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (53, 4);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (53, 7);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (53, 10);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (54, 5);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (55, 6);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (55, 11);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (56, 7);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (56, 13);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (56, 19);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (57, 8);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (58, 9);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (58, 17);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (59, 10);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (59, 19);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (59, 28);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (60, 11);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (61, 12);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (61, 23);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (62, 13);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (62, 25);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (62, 37);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (63, 14);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (64, 15);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (64, 29);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (65, 16);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (65, 31);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (65, 46);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (66, 17);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (67, 18);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (67, 35);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (68, 19);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (68, 37);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (68, 5);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (69, 20);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (70, 21);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (70, 41);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (71, 22);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (71, 43);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (71, 14);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (72, 23);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (73, 24);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (73, 47);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (74, 25);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (74, 49);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (74, 23);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (75, 26);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (76, 27);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (76, 3);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (77, 28);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (77, 5);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (77, 32);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (78, 29);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (79, 30);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (79, 9);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (80, 31);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (80, 11);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (80, 41);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (81, 32);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (82, 33);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (82, 15);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (83, 34);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (83, 17);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (83, 50);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (84, 35);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (85, 36);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (85, 21);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (86, 37);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (86, 23);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (86, 9);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (87, 38);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (88, 39);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (88, 27);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (89, 40);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (89, 29);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (89, 18);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (90, 41);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (91, 42);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (91, 33);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (92, 43);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (92, 35);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (92, 27);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (93, 44);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (94, 45);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (94, 39);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (95, 46);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (95, 41);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (95, 36);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (96, 47);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (97, 48);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (97, 45);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (98, 49);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (98, 47);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (98, 45);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (99, 50);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (100, 1);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (100, 1);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (101, 2);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (101, 3);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (101, 4);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (102, 3);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (103, 4);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (103, 7);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (104, 5);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (104, 9);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (104, 13);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (105, 6);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (106, 7);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (106, 13);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (107, 8);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (107, 15);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (107, 22);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (108, 9);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (109, 10);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (109, 19);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (110, 11);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (110, 21);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (110, 31);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (111, 12);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (112, 13);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (112, 25);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (113, 14);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (113, 27);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (113, 40);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (114, 15);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (115, 16);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (115, 31);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (116, 17);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (116, 33);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (116, 49);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (117, 18);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (118, 19);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (118, 37);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (119, 20);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (119, 39);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (119, 8);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (120, 21);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (121, 22);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (121, 43);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (122, 23);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (122, 45);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (122, 17);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (123, 24);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (124, 25);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (124, 49);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (125, 26);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (125, 1);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (125, 26);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (126, 27);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (127, 28);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (127, 5);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (128, 29);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (128, 7);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (128, 35);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (129, 30);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (130, 31);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (130, 11);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (131, 32);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (131, 13);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (131, 44);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (132, 33);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (133, 34);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (133, 17);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (134, 35);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (134, 19);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (134, 3);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (135, 36);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (136, 37);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (136, 23);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (137, 38);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (137, 25);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (137, 12);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (138, 39);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (139, 40);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (139, 29);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (140, 41);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (140, 31);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (140, 21);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (141, 42);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (142, 43);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (142, 35);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (143, 44);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (143, 37);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (143, 30);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (144, 45);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (145, 46);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (145, 41);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (146, 47);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (146, 43);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (146, 39);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (147, 48);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (148, 49);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (148, 47);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (149, 50);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (149, 49);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (149, 48);
+INSERT INTO VideoCimke (video_id, cimke_id) VALUES (150, 1);
+
+
+-- 8. Adatok beszúrása: LejatszasiLista
+INSERT INTO LejatszasiLista (lista_id, nev, felhasznalo_id, publikus, letrehozas_datum)
+VALUES (lejatszasilista_seq.NEXTVAL, 'Tutoriálok', 1, 1, TIMESTAMP '2023-01-20 15:30:00');
+
+INSERT INTO LejatszasiLista (lista_id, nev, felhasznalo_id, publikus, letrehozas_datum)
+VALUES (lejatszasilista_seq.NEXTVAL, 'Élő zene', 4, 1, TIMESTAMP '2023-02-10 12:45:00');
+
+INSERT INTO LejatszasiLista (lista_id, nev, felhasznalo_id, publikus, letrehozas_datum)
+VALUES (lejatszasilista_seq.NEXTVAL, 'Fotózás', 5, 1, TIMESTAMP '2023-03-05 09:20:00');
+
+INSERT INTO LejatszasiLista (lista_id, nev, felhasznalo_id, publikus, letrehozas_datum)
+VALUES (lejatszasilista_seq.NEXTVAL, 'Színdarabok', 3, 1, TIMESTAMP '2023-04-15 18:10:00');
+
+INSERT INTO LejatszasiLista (lista_id, nev, felhasznalo_id, publikus, letrehozas_datum)
+VALUES (lejatszasilista_seq.NEXTVAL, 'Érettségi felkészülés - irodalom', 2, 0, TIMESTAMP '2023-05-01 14:00:00');
 
 INSERT INTO LejatszasiLista (
     lista_id, nev, felhasznalo_id, publikus, letrehozas_datum
 ) VALUES (
     lejatszasilista_seq.NEXTVAL, 'Lista 1', 2, 0, SYSTIMESTAMP
 );
+
+
+
+-- 9. Adatok beszúrása: LejatszasiListaVideo
+INSERT INTO LejatszasiListaVideo (lista_id, video_id, pozicio, hozzaadas_datum)
+VALUES (1, 1, 1, TIMESTAMP '2023-04-11 10:15:00');
+
+INSERT INTO LejatszasiListaVideo (lista_id, video_id, pozicio, hozzaadas_datum)
+VALUES (2, 2, 1, TIMESTAMP '2023-03-27 16:30:00');
+
+INSERT INTO LejatszasiListaVideo (lista_id, video_id, pozicio, hozzaadas_datum)
+VALUES (3, 3, 1, TIMESTAMP '2023-05-07 11:45:00');
+
+INSERT INTO LejatszasiListaVideo (lista_id, video_id, pozicio, hozzaadas_datum)
+VALUES (4, 4, 1, TIMESTAMP '2023-02-17 19:20:00');
+
+INSERT INTO LejatszasiListaVideo (lista_id, video_id, pozicio, hozzaadas_datum)
+VALUES (5, 5, 1, TIMESTAMP '2023-02-01 13:10:00');
+
 INSERT INTO LejatszasiListaVideo (lista_id, video_id, pozicio, hozzaadas_datum) VALUES (1, 2, 1, SYSTIMESTAMP);
 INSERT INTO LejatszasiListaVideo (lista_id, video_id, pozicio, hozzaadas_datum) VALUES (1, 3, 2, SYSTIMESTAMP);
 INSERT INTO LejatszasiListaVideo (lista_id, video_id, pozicio, hozzaadas_datum) VALUES (1, 4, 3, SYSTIMESTAMP);
@@ -4178,6 +4030,131 @@ INSERT INTO LejatszasiLista (
 INSERT INTO LejatszasiListaVideo (lista_id, video_id, pozicio, hozzaadas_datum) VALUES (20, 21, 1, SYSTIMESTAMP);
 INSERT INTO LejatszasiListaVideo (lista_id, video_id, pozicio, hozzaadas_datum) VALUES (20, 41, 2, SYSTIMESTAMP);
 INSERT INTO LejatszasiListaVideo (lista_id, video_id, pozicio, hozzaadas_datum) VALUES (20, 61, 3, SYSTIMESTAMP);
+
+-- 10. Adatok beszúrása: Kedvencek
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (1, 3, TIMESTAMP '2023-05-08 09:45:00');
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (2, 5, TIMESTAMP '2023-02-02 14:30:00');
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (3, 2, TIMESTAMP '2023-03-28 17:15:00');
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (4, 1, TIMESTAMP '2023-04-12 11:20:00');
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (5, 4, TIMESTAMP '2023-02-18 20:05:00');
+
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (2, 4, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (3, 7, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (4, 10, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (5, 13, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (6, 16, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (7, 19, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (8, 22, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (9, 25, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (10, 28, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (11, 31, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (12, 34, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (13, 37, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (14, 40, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (15, 43, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (16, 46, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (17, 49, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (18, 52, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (19, 55, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (20, 58, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (21, 61, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (22, 64, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (23, 67, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (24, 70, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (25, 73, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (26, 76, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (27, 79, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (28, 82, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (29, 85, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (30, 88, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (31, 91, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (32, 94, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (33, 97, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (34, 100, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (35, 103, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (36, 106, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (37, 109, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (38, 112, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (39, 115, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (40, 118, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (41, 121, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (42, 124, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (43, 127, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (44, 130, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (45, 133, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (46, 136, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (47, 139, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (48, 142, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (49, 145, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (50, 148, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (51, 1, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (52, 4, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (53, 7, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (54, 10, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (55, 13, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (56, 16, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (57, 19, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (58, 22, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (59, 25, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (60, 28, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (61, 31, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (62, 34, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (63, 37, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (64, 40, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (65, 43, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (66, 46, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (67, 49, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (68, 52, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (69, 55, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (70, 58, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (71, 61, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (72, 64, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (73, 67, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (74, 70, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (75, 73, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (76, 76, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (77, 79, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (78, 82, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (79, 85, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (80, 88, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (81, 91, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (82, 94, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (83, 97, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (84, 100, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (85, 103, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (86, 106, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (87, 109, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (88, 112, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (89, 115, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (90, 118, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (91, 121, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (92, 124, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (93, 127, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (94, 130, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (95, 133, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (96, 136, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (97, 139, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (98, 142, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (99, 145, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (100, 148, SYSTIMESTAMP);
+INSERT INTO Kedvencek (felhasznalo_id, video_id, hozzaadas_datum) VALUES (101, 1, SYSTIMESTAMP);
+
+
+-- 11. Adatok beszúrása: Megtekintes
+INSERT INTO Megtekintes (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
+VALUES (megtekintes_seq.NEXTVAL, 1, 2, TIMESTAMP '2023-04-11 13:10:00', 845);
+
+INSERT INTO Megtekintes (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
+VALUES (megtekintes_seq.NEXTVAL, 2, 1, TIMESTAMP '2023-03-26 10:25:00', 1200);
+
+INSERT INTO Megtekintes (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
+VALUES (megtekintes_seq.NEXTVAL, 3, 3, TIMESTAMP '2023-05-06 19:30:00', 732);
+
+INSERT INTO Megtekintes (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
+VALUES (megtekintes_seq.NEXTVAL, 4, 5, TIMESTAMP '2023-02-16 21:15:00', 3000);
+
+INSERT INTO Megtekintes (megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz)
+VALUES (megtekintes_seq.NEXTVAL, 5, 4, TIMESTAMP '2023-01-31 12:40:00', 612);
 
 INSERT INTO Megtekintes (
     megtekintes_id, video_id, felhasznalo_id, megtekintes_datum, megtekintes_hossz
@@ -4786,6 +4763,23 @@ INSERT INTO Megtekintes (
     megtekintes_seq.NEXTVAL, 101, 116, SYSTIMESTAMP, 300
 );
 
+-- 12. Adatok beszúrása: Ajanlasok
+INSERT INTO Ajanlasok (ajanlas_id, felhasznalo_id, video_id, ajanlas_erosseg, ajanlas_datum)
+VALUES (ajanlas_seq.NEXTVAL, 1, 4, 0.85, TIMESTAMP '2023-05-20 15:00:00');
+
+INSERT INTO Ajanlasok (ajanlas_id, felhasznalo_id, video_id, ajanlas_erosseg, ajanlas_datum)
+VALUES (ajanlas_seq.NEXTVAL, 2, 2, 0.78, TIMESTAMP '2023-05-19 17:00:00');
+
+INSERT INTO Ajanlasok (ajanlas_id, felhasznalo_id, video_id, ajanlas_erosseg, ajanlas_datum)
+VALUES (ajanlas_seq.NEXTVAL, 3, 5, 0.92, TIMESTAMP '2023-05-18 12:00:00');
+
+INSERT INTO Ajanlasok (ajanlas_id, felhasznalo_id, video_id, ajanlas_erosseg, ajanlas_datum)
+VALUES (ajanlas_seq.NEXTVAL, 4, 3, 0.65, TIMESTAMP '2023-05-17 20:00:00');
+
+INSERT INTO Ajanlasok (ajanlas_id, felhasznalo_id, video_id, ajanlas_erosseg, ajanlas_datum)
+VALUES (ajanlas_seq.NEXTVAL, 5, 1, 0.73, TIMESTAMP '2023-05-16 09:30:00');
+
+
 INSERT INTO Ajanlasok (
     ajanlas_id, felhasznalo_id, video_id, ajanlas_erosseg, ajanlas_datum
 ) VALUES (
@@ -5385,3 +5379,213 @@ INSERT INTO Ajanlasok (
 ) VALUES (
     ajanlas_seq.NEXTVAL, 105, 104, 0.5, SYSTIMESTAMP
 );
+
+
+-- 13. Adatok beszúrása: VideoKategoria
+
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (1, 2);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (2, 3);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (3, 4);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (3, 9);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (4, 5);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (5, 6);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (6, 7);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (6, 12);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (7, 8);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (8, 9);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (9, 10);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (9, 15);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (10, 11);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (11, 12);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (12, 13);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (12, 18);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (13, 14);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (14, 15);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (15, 16);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (15, 21);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (16, 17);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (17, 18);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (18, 19);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (18, 24);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (19, 20);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (20, 21);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (21, 22);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (21, 27);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (22, 23);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (23, 24);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (24, 25);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (24, 30);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (25, 26);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (26, 27);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (27, 28);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (27, 33);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (28, 29);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (29, 30);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (30, 31);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (30, 36);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (31, 32);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (32, 33);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (33, 34);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (33, 39);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (34, 35);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (35, 36);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (36, 37);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (36, 42);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (37, 38);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (38, 39);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (39, 40);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (39, 45);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (40, 41);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (41, 42);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (42, 43);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (42, 48);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (43, 44);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (44, 45);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (45, 46);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (45, 1);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (46, 47);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (47, 48);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (48, 49);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (48, 4);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (49, 50);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (50, 1);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (51, 2);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (51, 7);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (52, 3);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (53, 4);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (54, 5);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (54, 10);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (55, 6);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (56, 7);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (57, 8);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (57, 13);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (58, 9);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (59, 10);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (60, 11);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (60, 16);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (61, 12);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (62, 13);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (63, 14);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (63, 19);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (64, 15);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (65, 16);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (66, 17);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (66, 22);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (67, 18);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (68, 19);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (69, 20);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (69, 25);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (70, 21);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (71, 22);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (72, 23);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (72, 28);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (73, 24);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (74, 25);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (75, 26);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (75, 31);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (76, 27);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (77, 28);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (78, 29);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (78, 34);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (79, 30);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (80, 31);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (81, 32);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (81, 37);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (82, 33);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (83, 34);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (84, 35);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (84, 40);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (85, 36);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (86, 37);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (87, 38);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (87, 43);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (88, 39);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (89, 40);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (90, 41);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (90, 46);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (91, 42);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (92, 43);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (93, 44);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (93, 49);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (94, 45);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (95, 46);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (96, 47);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (96, 2);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (97, 48);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (98, 49);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (99, 50);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (99, 5);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (100, 1);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (101, 2);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (102, 3);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (102, 8);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (103, 4);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (104, 5);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (105, 6);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (105, 11);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (106, 7);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (107, 8);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (108, 9);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (108, 14);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (109, 10);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (110, 11);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (111, 12);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (111, 17);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (112, 13);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (113, 14);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (114, 15);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (114, 20);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (115, 16);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (116, 17);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (117, 18);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (117, 23);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (118, 19);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (119, 20);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (120, 21);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (120, 26);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (121, 22);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (122, 23);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (123, 24);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (123, 29);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (124, 25);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (125, 26);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (126, 27);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (126, 32);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (127, 28);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (128, 29);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (129, 30);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (129, 35);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (130, 31);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (131, 32);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (132, 33);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (132, 38);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (133, 34);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (134, 35);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (135, 36);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (135, 41);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (136, 37);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (137, 38);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (138, 39);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (138, 44);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (139, 40);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (140, 41);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (141, 42);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (141, 47);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (142, 43);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (143, 44);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (144, 45);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (144, 50);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (145, 46);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (146, 47);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (147, 48);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (147, 3);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (148, 49);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (149, 50);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (150, 1);
+INSERT INTO VideoKategoria (video_id, kategoria_id) VALUES (150, 6);
+
+COMMIT;
+
+
+
+
