@@ -6,7 +6,6 @@ CREATE OR REPLACE PROCEDURE uj_video_beszur (
     p_datum         IN DATE
 ) AS
 BEGIN
-    INSERT INTO Video (cim, hossz, feltolto_id, feltoltes_datum)
+    INSERT INTO Video (cim, hossz, felhasznalo_id, feltoltes_datum)
     VALUES (p_cim, p_hossz, p_feltolto_id, p_datum);
 END;
-/
