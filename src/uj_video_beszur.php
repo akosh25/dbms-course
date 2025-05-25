@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $cim = $_POST['cim'] ?? '';
     $hossz = (int)($_POST['hossz'] ?? 0);
     $felhasznalo_id = $_SESSION['user_id'];
-    $datum = date('Y-m-d'); // vagy jöhet az űrlapról, vagy mostani dátum
+    $datum = date('Y-m-d');
 
     if (empty($cim) || $hossz <= 0) {
         die("Hiányzó vagy érvénytelen adatok.");

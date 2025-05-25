@@ -71,7 +71,15 @@ if ($legutobbi_komment) {
  else {
     // Alapértelmezett szűrés kulcsszó és kategória szerint
     $sql = "
-      SELECT v.video_id, v.cim, v.leiras, k.nev AS kategoria_nev, v.video_url
+      SELECT v.video_id, v.cim, v.leiras, k.nev AS kategoria_nev, v.video_url,
+       CASE 
+         WHEN EXISTS (
+           SELECT 1 FROM Kedvencek f 
+           WHERE f.felhasznalo_id = :felhasznalo_id_check
+             AND f.video_id = v.video_id
+         ) THEN 1
+         ELSE 0
+       END AS mar_kedvenc
       FROM Video v
       LEFT JOIN VideoKategoria vk ON v.video_id = vk.video_id
       LEFT JOIN Kategoria k ON vk.kategoria_id = k.kategoria_id
@@ -107,6 +115,10 @@ if ($legutobbi_komment) {
     if (!empty($kategoria_id)) {
         oci_bind_by_name($stmt, ":kategoria_id", $kategoria_id);
     }
+
+    if (!$legutobbi_komment && isset($_SESSION['user_id'])) {
+    oci_bind_by_name($stmt, ":felhasznalo_id_check", $_SESSION['user_id']);
+}
 }
 oci_execute($stmt);
 
@@ -291,6 +303,16 @@ oci_close($conn);
                     <em>Utolsó hozzászólás (<?= date('Y.m.d H:i',strtotime($video['UTOLSO_DATUM'])) ?>): <?= htmlspecialchars($video['UTOLSO_KOMMENT']) ?></em><br>
                 <?php endif; ?>
                 <a href="<?= htmlspecialchars($video['VIDEO_URL']) ?>" target="_blank">Videó megtekintése</a>
+            <?php if (isset($_SESSION['user_id'])): ?>
+                <?php if (!$video['MAR_KEDVENC']): ?>
+                    <form method="post" action="kedvencekhez_ad.php" style="display:inline;">
+                        <input type="hidden" name="video_id" value="<?= $video['VIDEO_ID'] ?>">
+                        <button type="submit">❤️ Kedvenchez ad</button>
+                    </form>
+                <?php else: ?>
+                    <span style="color: green;">✅ Már kedvenc</span>
+                <?php endif; ?>
+            <?php endif; ?>      
             </li>
         <?php endforeach; ?>
         </ul>
