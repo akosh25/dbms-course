@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 video_id, cim, leiras, feltoltes_datum, felhasznalo_id, hossz, 
                 is_short, video_url)
                 VALUES (
-                :video_id, :cim, NULL, :datum, :felhasznalo_id, :hossz, 
+                :video_id, :cim, NULL, TO_DATE(:datum, 'YYYY-MM-DD'), :felhasznalo_id, :hossz, 
                 NULL, :video_url)";
 
     $stmt = oci_parse($conn, $insert_sql);
@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($result) {
         // Sikeres beszúrás, átirányítás vagy üzenet
         echo "sikeres";
-        header("Location: videok.php");
+        header("Location: videok.php?uzenet=Videó sikeresen hozzáadva!");
         exit();
     } else {
         $e = oci_error($stmt);

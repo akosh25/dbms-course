@@ -46,6 +46,7 @@
         <a href="register.php">Regisztráció</a>
         <a href="login.php">Bejelentkezés</a>
         <a href="videok.php">Videók</a>
+        <a href="uj_video_beszur.php">Videó feltöltés</a>
         <a href="dashboard.php">Profil</a>
         <a href="lekerdezesek.php">Alapadatok</a>
         <a href="logout.php">Kilépés</a>
